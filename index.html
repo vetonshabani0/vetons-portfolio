@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+<style>
+.body{
+  background-color: #fff;
+}
+.nav-bar{
+  display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: flex-start;
+    width: 40%;
+    padding-left: 10px;
+    color:ivory;
+  }
+  .navbar-element{
+    padding: 10px 5px;
+    color: black;
+    font-weight: 500;
+    margin-inline-start: 20px;
+    text-decoration: none;
+  }
+  .nav-bar-style{
+    background-color: white;
+    border-radius: 5px 5px;
+    height: 45px;
+    border-bottom: solid black 2px;
+    position: fixed;
+    inline-size: 100%;
+    
+}
+.logo{
+  width: 40px;
+  height: 40px;
+}
+.home{
+  background-image: url("photos/header-background2.jpg");
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: grid;
+  align-content: center;
+}
+.home-wellcome{
+text-align: center;
+font-weight: bolder;
+font-family: 'Times New Roman', Times, serif;
+flex-direction: column;
+color:whitesmoke;
+
+}
+.home-description{
+  text-align: center;
+  opacity: 0.6;
+  color:whitesmoke;
+  font-family: 'Times New Roman', Times, serif;
+}
+.aboutme{
+  background-image:url("photos/background-white.jpg");
+  height: 100vh;
+  display: grid;
+  text-align: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  align-content: center;
+  color: black;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: large;
+}
+.aboutme-baners{
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  margin-top: 50px;
+  font-style: oblique;
+  
+  
+}
+.personal-details{
+      margin-left: 40px;
+      margin-right: 40px;
+      font-style: oblique;
+      
+      block-size: 50%;
+    }
+ .aboutme-profile{
+   margin-right: 20px;
+   margin-left: 20px;
+ }
+ .aboutme-address{
+   margin-right: 20px;
+   margin-left: 20px;
+ }
+ .aboutme-education{
+   margin-right: 20px;
+   margin-left: 20px;
+ }
+ .skills{
+      background-image: url("photos/header-background2.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      text-align: center;
+      height: 100vh;
+      align-content: center;
+      color:white;
+   
+    display: grid;
+    }
+.all-bars{
+  display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.row-bars{
+  display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 150px;
+    margin-bottom: 100px;
+}
+.progress-bars {
+				width: 200px;
+        border: solid ;
+        border-color:black;
+        border-radius: 5px;
+				background-color: white;
+				padding: 3px;
+				border-radius: 2px;
+				
+	}
+      .progress-bar-fill {
+				display: block;
+				height: 22px;
+				background-color: green;
+				border-radius: 3px;
+			}
+      .career{
+      
+    display: flex;
+    background-image: url(photos/background-white.jpg);
+    background-size: cover;
+    height: 100vh;
+    background-repeat: no-repeat;
+    justify-content: space-evenly;
+    align-items: center;
+    /* display: grid; */
+    text-align: left;
+    font-family: 'Times New Roman', Times, serif;
+    align-content: space-between;
+      }
+    .media-icons{
+      text-align: center;
+    /* display: flex; */ 
+    font-size: small;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-around;
+      }
+    
+    .profile-pic{
+      height: 100px;
+      width: 100px;
+      border-image: 5px solid white;
+      border-radius: 50%;
+    }
+ .education{
+  display: flex;
+    flex-direction: column;
+    align-items: center;
+ 
+}
+ .work{
+  display: flex;
+    flex-direction: column;
+    align-items: center;
+
+ }
+ table {
+  border-collapse: separate;
+  border-spacing: 50px 0;
+}
+td {
+  font-size:20px;
+  padding: 5px 10px;
+  color:green;
+  font-weight: bold;
+}
+th{
+  font-size: 30px;
+  padding: 5px 10px;
+}
+.email-me{
+  display: flex;
+  background-size: 100vh;
+  background-color: black;
+  color: white;
+  justify-content: center;
+  
+}
+footer{
+  background-color: black;
+  color:white;
+  text-align: center;
+ position: static;
+ width: 100%;
+  bottom: 0;
+  height: 2.5rem;
+}
+
+</style>
+<head >
+  <title>Veton's Portfolio</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="js/bootstrap.js">
+ 
+</head>
+<body class="body">
+<div class="nav-bar-style" >
+<div class="nav-bar">
+ <a href="#homepage"><img class="logo" rel="stylesheet" src="photos/vs-logo1.jpg"  alt="Logo img" /></a>
+<a class="navbar-element" href="#homepage">Home</a>
+<a class="navbar-element" href="#aboutpage">WhoAmI?</a
+  >
+<a class="navbar-element"  href="#skillspage">Skills</a>
+<a class="navbar-element"  href="#careerpage">Career</a>
+
+<a class="navbar-element" href="#footer" >Licenes</a>
+</div>
+</div>
+<div class="home" id="homepage">
+<h1 class="home-wellcome" >VETON SHABANI</h1>
+<h3 class="home-description">Intern</h3>
+<div class="media-icons" >
+<a href="https://www.facebook.com/vetonshabani0" target="_blank"><img src="photos/fb-icon.png" text-align="center" height="20px" width="20px" ></a></img>
+<a href="https://www.instagram.com" target="_blank"><img src="photos/insta-icon.png"  height="20px" width="20px"></img></a>
+<a href="https://github.com/" target="_blank"><img src="photos/github-icon1.png" height="20px" width="20px"></img></a>
+</div>
+</div>
+<div class="aboutme" id="aboutpage">
+  <div class="personal-details">
+  <h4>Personal Details</h4>
+  <p>I introduce the most creative and original ideas!</p> 
+  <p>I will design your webside according to your needs and goals.
+      Do you want to sell? Buy? Just have a website to promote your business and advertise it to the world? 
+      I can do that and more. There is no better money spent today than on Internet advertising. 
+      Consider that you have a full-color advertisment working for you 24 hours a day all over the world. </p>
+  </div>
+  <div class="aboutme-baners">
+    <div class="aboutme-profile">
+      <img class="profile-pic" src="photos/profile.jpg" alt="profile-pic">
+      <h3>Profile</h3>
+      <p>I love coding! I never come to work just to work and get paid instead, I create, fantasize, dream and get proud of what I do!
+        You don't just get your project done and smooth, you get a piece of my soul attached to it! 
+     </div>
+    <div class="aboutme-address">
+      <img class="profile-pic"  src="photos/house.jpg" alt="profile-pic">
+      <h3>Address</h3>
+      <p>My curent location is between Skopje and Tetovo, as I travel almost everyday from Skopje to Tetovo and back to Skopje.
+        As it is noticeable I am comfortable and adaptible in changing locations. But I would almost always prefere working 
+        from the Office than Home.   
+      </div>
+    <div class="aboutme-education">
+      <img class="profile-pic" src="photos/education.jpg" alt="profile-pic">
+      <h3>Education</h3>
+      <p>I am currently a 4th year student in the South Eastern European University, The Faculty of Contemporery Sciences and Technologies, Study Program Computer Science.
+      </div>
+  </div>
+  </div>
+  <div class="skills" id="skillspage" >
+    <p ><i>my skills</i></p>
+    <h3>What I'm Good At</h3>
+    <br>
+    <div class="all-bars">
+      <div class="row-bars">
+    <div class="inside-bars">
+      <p><b>HTML</b></p>
+      <div class="progress-bars">
+        <span class="progress-bar-fill" style="width: 100%;"><b>100%</b></span>
+      </div>
+    </div>
+    <br>
+    <div class="inside-bars">
+      <p><b>CSS</b></p>
+      <div class="progress-bars">
+        <span class="progress-bar-fill" style="width: 90%;"><b>90%</b></span>
+      </div>
+    </div>
+  </div>
+  <div class="row-bars">
+
+    <div class="inside-bars">
+      <p><b>JAVASCRIPT</b></p>
+      <div class="progress-bars">
+        <span class="progress-bar-fill" style="width: 30%;"><b>30%</b></span>
+      </div>
+    </div>
+    <br>
+    <div class="inside-bars">
+      <p><b>ANGULAR</b></p>
+      <div class="progress-bars">
+        <span class="progress-bar-fill" style="width: 20%;"><b>20%</b></span>
+      </div>
+    </div>
+  </div>
+</div>
+  </div>
+  <div class="career" id="careerpage">
+    <div class="education">
+      <table class="education-table">
+        
+        <tr>
+          <h2><b>Education</b></h2>
+        </tr>
+        <tr>
+          <th>From</th>
+          <th>Until</th>
+          <th>University</th>
+        </tr>
+        <tr>
+          <td>01.08.2018</td>
+          <td>15.06.2021</td>
+          <td>Bachloret Degree</td>
+        </tr>
+        <tr>
+          <td>01.08.2021</td>
+          <td>on going</td>
+          <td>Engineering Degree</td>
+        </tr>
+      </table>
+    </div>
+      <div class="work">
+        <table class="work-table" >
+          <tr >
+            <h2><b>Work Experience</b></h2>
+          </tr>
+          <tr>
+            <th>From</th>
+            <th>Until</th>
+            <th>Company</th>
+          </tr>
+          <tr>
+            <td>01.09.2019</td>
+            <td>01.03.2020</td>
+            <td>Slice</td>
+          </tr>
+          <tr>
+            <td>15.10.2021</td>
+            <td>on going</td>
+            <td>iSolve</td>
+          </tr>
+        </table>
+      </div>
+     
+        <img src="photos/vetonshabani.png">
+</div>
+
+<footer id="footer">
+  <p>All rights are reserved to Veton Shabani</p>
+</footer>
+</body>
+</html>
+
+
